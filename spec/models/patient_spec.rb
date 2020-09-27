@@ -15,7 +15,7 @@ describe 'Patient' do
   end
 
   it 'has an age' do
-    expect(@patient.age).to eq(27)
+    expect(@patient.age).to eq("27")
   end
 
   it 'has many appointments' do
